@@ -280,6 +280,7 @@
   background-color: var(--bg-color);
   transition: outline 0.3s ease;
   min-block-size: 38px;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
@@ -307,6 +308,7 @@
   text-align: center;
   background-color: var(--bg-color);
   transition: box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .button::after {
@@ -337,6 +339,7 @@
 .card__like-button {
   min-block-size: 38px;
   min-inline-size: 130px;
+  cursor: pointer;
 }
 
 .save__button {
@@ -348,6 +351,7 @@
   padding: 15px 18px;
   inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
   color: var(--btn-text-color);
+  cursor: pointer;
 }
 
 .dialog {
