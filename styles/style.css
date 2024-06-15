@@ -46,7 +46,7 @@
   padding-block-start: clamp(7.375rem, 7.0229rem + 1.5023vw, 8.375rem);
   inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
 
-@media (width < 768px) {
+@media (width <= 375px) {
   padding-inline-start: 17px;
   }
 }
@@ -69,6 +69,12 @@
   gap: 14px;
   font-size: 14px;
   padding-inline-start: 20px;
+}
+
+@media (width <= 375px) {
+  .theme-menu__list {
+    gap: 11px;
+  }
 }
 
 .theme-menu__button {
@@ -436,10 +442,4 @@
   mix-blend-mode: difference;
   position: relative;
   z-index: 1;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  margin-block-end: 100px;
 }
